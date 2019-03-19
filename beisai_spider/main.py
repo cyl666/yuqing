@@ -7,12 +7,12 @@ import re
 from spider_handler import sp
 from no_ruler_url_handler import No_ruler
 # 连接数据库
-db = pymysql.connect('192.168.0.121','develop','abc123','baysidedevelop',charset='utf8')
-# db = pymysql.connect('127.0.0.1','root','cyl666.','test',charset='utf8')
+db = pymysql.connect('192.168.0.121','***','***','***',charset='utf8')
+# db = pymysql.connect('127.0.0.1','root','***.','test',charset='utf8')
 cursor = db.cursor()
 
 # 连接 redis 数据库
-rediscli = redis.Redis(host="47.93.114.131", port=6111, password='bayside801', db=0)
+rediscli = redis.Redis(host="******", port=6111, password='*****', db=0)
 
 
 # 查询 mysql 数据
